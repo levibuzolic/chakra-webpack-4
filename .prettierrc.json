@@ -1,0 +1,14 @@
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": false,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx", "*.ts", "*.tsx", "*.mjs"],
+      "options": {
+        "printWidth": 120,
+        "parser": "typescript"
+      }
+    }
+  ]
+}
